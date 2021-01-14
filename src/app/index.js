@@ -5,6 +5,8 @@ import routesConfig from './router/routes';
 export default {
   // redux
   configureStore,
+  // 创建app 组件
   createApp,
+  // 路由配置
   routesConfig
 }

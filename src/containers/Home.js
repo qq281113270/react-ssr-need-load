@@ -33,11 +33,13 @@ class Home extends Component{
   }
 }
 
+// 注入redux
 const mapStateToProps=(state)=>({
   count: state.counter.count,
   homeInfo: state.homeInfo,
 })
 
+// 注入redux
 const mapDispatchToProps=(dispatch)=>bindActionCreators({
   add: actions.add,
   getHomeInfo: actions.getHomeInfo,
